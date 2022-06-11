@@ -98,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                       final form = _formKey.currentState;
 
                       if (form.validate()) {
-                        Get.to(home_page());
+                        Get.to(HomePage());
 //      performLogin();
                       }
                       // validateAndSave();

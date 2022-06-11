@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:ludo/screens/home.dart';
 import 'package:ludo/screens/login.dart';
 import 'package:ludo/screens/splash.dart';
+import 'package:ludo/text.dart';
 import './gameengine/model/game_state.dart';
 import './widgets/gameplay.dart';
 import 'package:provider/provider.dart';

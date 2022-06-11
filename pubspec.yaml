@@ -54,6 +54,8 @@ flutter:
     - assets/6.png
     - assets/wetransfer_l2-jpg_2022-06-01_1318/
     - assets/images/
+    - assets/
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

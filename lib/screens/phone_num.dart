@@ -82,6 +82,14 @@ class _phoneAuthState extends State<phoneAuth> {
                 ? buildTextField("OTP", otp, Icons.timer, context)
                 : const SizedBox(),
             !canShow ? buildSendOTPBtn("Send OTP") : buildSubmitBtn("Submit"),
+            Padding(
+              padding: EdgeInsets.only(top: 8.0),
+              child: Text(
+                "Use Referral Code",
+                style:
+                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              ),
+            )
           ],
         ),
       ),

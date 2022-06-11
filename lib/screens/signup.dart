@@ -70,7 +70,7 @@ class RegisterScreen extends StatelessWidget {
                     return value.isEmpty ? 'Username is Required.' : null;
                   },
                   keyboardType: TextInputType.emailAddress,
-                  decoration: InputDecoration(labelText: "Email"),
+                  decoration: InputDecoration(labelText: "Username"),
                 ),
               ),
               SizedBox(height: size.height * 0.03),
